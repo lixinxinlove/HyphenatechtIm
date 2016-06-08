@@ -4,7 +4,24 @@ import android.app.IntentService;
 import android.content.Intent;
 import android.util.Log;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.lixinxin.androidim.cache.ACache;
+import com.lixinxin.androidim.model.User;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.util.List;
+
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.http.GET;
+import retrofit2.http.Path;
 
 
 public class UpdateIntentService extends IntentService {
@@ -12,6 +29,7 @@ public class UpdateIntentService extends IntentService {
 
     ACache mACache;
     String username;
+    List<User> users;
 
     public UpdateIntentService() {
         super("UpdateIntentService");
@@ -36,18 +54,48 @@ public class UpdateIntentService extends IntentService {
         if (intent != null) {
 
             username = intent.getStringExtra("username");
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            mACache.put(username + "Nick", username + "lxx", 60 * 5);
 
-            if (username.equals("a")) {
-                mACache.put(username + "Avatar", "http://img3.duitang.com/uploads/item/201409/28/20140928095004_KQmC8.jpeg", 60 * 5);
-            } else {
-                mACache.put(username + "Avatar", "http://image.tianjimedia.com/uploadImages/2012/233/38/H439I0N71ARI.jpg", 60 * 5);
-            }
+
+            Retrofit retrofit = new Retrofit.Builder()
+                    .baseUrl("http://gank.io/api/data/福利/")
+                    .build();
+
+            DiskService diskService = retrofit.create(DiskService.class);
+            Call<ResponseBody> call = diskService.getData(1, (int) (1 + Math.random() * (10 - 1 + 1)));
+
+            call.enqueue(new Callback<ResponseBody>() {
+                @Override
+                public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+
+                    try {
+                        JSONObject jsonObject = new JSONObject(response.body().string());
+                        Gson gson = new Gson();
+                        users = gson.fromJson(jsonObject.getString("results"), new TypeToken<List<User>>() {
+                        }.getType());
+
+
+                        mACache.put(username + "Nick", users.get(0).getWho(), 60);
+
+                        if (username.equals("a")) {
+                            mACache.put(username + "Avatar", users.get(0).getUrl(), 60 );
+                        } else {
+                            mACache.put(username + "Avatar", users.get(0).getUrl(), 60);
+                        }
+
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+
+                @Override
+                public void onFailure(Call<ResponseBody> call, Throwable t) {
+
+                }
+            });
+
         }
     }
 
@@ -56,4 +104,14 @@ public class UpdateIntentService extends IntentService {
         super.onDestroy();
 
     }
+
+
+    public interface DiskService {
+        @GET("{count}/{page}")
+        Call<ResponseBody> getData(
+                @Path("count") int count,
+                @Path("page") int page
+        );
+    }
+
 }
