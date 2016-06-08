@@ -61,8 +61,12 @@
         <!-- 设置环信应用的AppKey end -->
 
         <activity android:name=".ui.activity.ConversationListActivity" />
-        <activity android:name=".ui.activity.ChatActivity"></activity>
-        <activity android:name="com.hyphenate.easeui.ui.EaseShowBigImageActivity"/>
+        <activity android:name=".ui.activity.ChatActivity" />
+        <activity android:name="com.hyphenate.easeui.ui.EaseShowBigImageActivity" />
+
+        <service
+            android:name=".service.UpdateIntentService"
+            android:exported="false"></service>
     </application>
 
 </manifest>

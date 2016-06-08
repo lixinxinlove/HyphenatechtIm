@@ -2,12 +2,16 @@ package com.lixinxin.androidim.ui;
 
 import android.app.ActivityManager;
 import android.app.Application;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.util.Log;
 
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMOptions;
 import com.hyphenate.easeui.controller.EaseUI;
 import com.hyphenate.easeui.domain.EaseUser;
+import com.lixinxin.androidim.cache.ACache;
+import com.lixinxin.androidim.service.UpdateIntentService;
 
 import java.util.Iterator;
 import java.util.List;
@@ -17,7 +21,7 @@ import java.util.List;
  */
 public class App extends Application {
 
-
+    ACache mACache = null;
     App appContext = this;
     int pid = android.os.Process.myPid();
 
@@ -28,6 +32,8 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        mACache = ACache.get(App.this);
 
         EMOptions options = new EMOptions();
         // 默认添加好友时，是不需要验证的，改成需要验证
@@ -42,10 +48,7 @@ public class App extends Application {
         EMClient.getInstance().init(this, options);
         //在做打包混淆时，关闭debug模式，避免消耗不必要的资源
         EMClient.getInstance().setDebugMode(true);
-
         EaseUI.getInstance().init(appContext, options);
-
-
         infoProvider();
     }
 
@@ -62,24 +65,19 @@ public class App extends Application {
         });
     }
 
+    EaseUser easeUser;
+
     private EaseUser getUserInfo(final String username) {
-        final EaseUser easeUser = new EaseUser(username);
-
-        // TODO: 2016/6/7
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    Thread.sleep(2000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                easeUser.setAvatar("http://img5.imgtn.bdimg.com/it/u=427840222,1928993467&fm=21&gp=0.jpg");
-                easeUser.setNick(username + "lxx");
-
-
-            }
-        });
+        easeUser = new EaseUser(username);
+        if (mACache.getAsString(username + "Nick") != null) {
+            easeUser.setNick(mACache.getAsString(username + "Nick"));
+            easeUser.setAvatar(mACache.getAsString(username + "Avatar"));
+            Log.e("lxx", "缓存里的图片");
+        } else {
+            Intent intent = new Intent(this, UpdateIntentService.class);
+            intent.putExtra("username", username);
+            startService(intent);
+        }
         return easeUser;
     }
 

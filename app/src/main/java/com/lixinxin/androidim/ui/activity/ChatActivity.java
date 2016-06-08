@@ -20,8 +20,6 @@ public class ChatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
-
-
         String userName = getIntent().getStringExtra(EaseConstant.EXTRA_USER_ID);
 
         Bundle args = new Bundle();
