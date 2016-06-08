@@ -62,6 +62,7 @@
 
         <activity android:name=".ui.activity.ConversationListActivity" />
         <activity android:name=".ui.activity.ChatActivity"></activity>
+        <activity android:name="com.hyphenate.easeui.ui.EaseShowBigImageActivity"/>
     </application>
 
 </manifest>
