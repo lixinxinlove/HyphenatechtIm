@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_emojicon.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_widget_emojicon.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_message.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_received_message.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_activity_show_file.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_activity_show_file.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_chat_menu_item.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_chat_menu_item.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_expression.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_expression.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_alert_dialog.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_alert_dialog.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_location.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_received_location.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_bigexpression.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_received_bigexpression.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_sent_voice.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_sent_voice.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_search_bar_with_padding.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_search_bar_with_padding.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_chat_message_list.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_chat_message_list.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_search_bar.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_search_bar.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_chat_input_menu.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_widget_chat_input_menu.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_voice_call.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_received_voice_call.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_emojicon.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_emojicon.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_fragment_chat.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_fragment_chat.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_switch_button.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_widget_switch_button.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_sent_video.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_sent_video.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_voice.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_received_voice.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_video.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_received_video.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_sent_bigexpression.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_sent_bigexpression.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_activity_baidumap.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_activity_baidumap.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_emojicon_tab_bar.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_sent_voice_call.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_sent_voice_call.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_voice_recorder.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_widget_voice_recorder.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_sent_file.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_sent_file.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_picture.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_received_picture.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_title_bar.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_widget_title_bar.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_layout_chat_primary_menu.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_layout_chat_primary_menu.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_activity_show_big_image.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_activity_show_big_image.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_sent_picture.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_sent_picture.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_file.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_received_file.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_commom_back_btn.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_commom_back_btn.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_contact.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_contact.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_sent_message.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_sent_message.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_chat_primary_menu.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_widget_chat_primary_menu.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_showvideo_activity.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_showvideo_activity.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_big_expression.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_big_expression.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_sent_location.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_sent_location.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_sent_video_call.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_sent_video_call.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_fragment_contact_list.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_fragment_contact_list.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_chat_history.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_chat_history.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_conversation_item.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_conversation_item.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_scroll_tab_item.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_scroll_tab_item.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_video_call.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_row_received_video_call.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_expression_gridview.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_expression_gridview.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_fragment_conversation_list.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_fragment_conversation_list.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_layout_emojicon_menu.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_layout_emojicon_menu.xml"
+    },
+    {
+        "merged": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_contact_list.xml",
+        "source": "G:\\work\\Android Studio Projets\\AndroidIm\\easeUI\\src\\main\\res\\layout\\ease_widget_contact_list.xml"
+    }
+]
