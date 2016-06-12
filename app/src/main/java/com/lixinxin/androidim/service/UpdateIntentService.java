@@ -9,10 +9,8 @@ import com.google.gson.reflect.TypeToken;
 import com.lixinxin.androidim.cache.ACache;
 import com.lixinxin.androidim.model.User;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.IOException;
 import java.util.List;
 
 import okhttp3.ResponseBody;
@@ -61,31 +59,21 @@ public class UpdateIntentService extends IntentService {
                     .build();
 
             DiskService diskService = retrofit.create(DiskService.class);
-            Call<ResponseBody> call = diskService.getData(1, (int) (1 + Math.random() * (10 - 1 + 1)));
+            Call<ResponseBody> call = diskService.getData(1, 1);
 
             call.enqueue(new Callback<ResponseBody>() {
                 @Override
                 public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
-
                     try {
                         JSONObject jsonObject = new JSONObject(response.body().string());
                         Gson gson = new Gson();
                         users = gson.fromJson(jsonObject.getString("results"), new TypeToken<List<User>>() {
                         }.getType());
 
+                        mACache.put(username + "Nick", users.get(0).getWho(), ACache.TIME_DAY);
+                        mACache.put(username + "Avatar", users.get(0).getUrl(), ACache.TIME_DAY);
 
-                        mACache.put(username + "Nick", users.get(0).getWho(), 60);
-
-                        if (username.equals("a")) {
-                            mACache.put(username + "Avatar", users.get(0).getUrl(), 60 );
-                        } else {
-                            mACache.put(username + "Avatar", users.get(0).getUrl(), 60);
-                        }
-
-
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    } catch (IOException e) {
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
